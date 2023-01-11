@@ -3,4 +3,3 @@ node_modules/*
 yarn.lock
 config.json
 package-lock.json
-tsconfig.json
