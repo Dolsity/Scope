@@ -24,7 +24,7 @@ commandFiles.forEach((async (fileName: string) => {
 client.on(Events.ClientReady, () => {
     console.log(`Logged in as ${client.user?.tag}`)
     client.user?.setActivity({
-        name: 'Something',
+        name: client.user.username,
         type: ActivityType.Playing
     })
 })
